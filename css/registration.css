@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    overflow-x: hidden;
+}
 
 header .bg-light {
     background-color: green !important;
@@ -35,4 +38,21 @@ header .nav-link{
     position: absolute;
     bottom: -3px;
     left: 15px;
+}
+
+.row{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.form-control{
+    padding-left: 100px;
+    padding-right: 10px;   
+}
+h5{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+
 }
