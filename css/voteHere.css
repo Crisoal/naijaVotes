@@ -42,6 +42,8 @@ header .nav-link{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgba(148, 134, 134, 0.4);
+    background-blend-mode: overlay;
 }
 
 #home .wrapper{
