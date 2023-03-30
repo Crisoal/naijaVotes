@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(/img/1A6276E7-542F-4CE6-8EC2-260A3ACF60D7-scaled.jpg);
+    background-size: cover;
+    background-position: bottom;
+    color: #fff; 
+  }
+
+header .bg-light {
+    background-color: green !important;
+}
+
+header .nav-link{
+   color: rgb(245, 238, 238);
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   position: relative;
+   transition: 0.3 ease;
+}
+
+.nav-item a:hover,
+.nav-item a.active{
+    color: rgb(245, 238, 238) !important;
+}    
+
+
+
+
+.nav-item a.active::after,
+.nav-item a:hover::after {
+    content: "";
+    width: 3rem;
+    height: 1.5px;
+    background: rgb(245, 238, 238);
+    position: absolute;
+    bottom: -3px;
+    left: 15px;
+}
+
+
+.mask h1{
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .mask h6{
+    margin-left: 80px;
+    margin-top: 10PX;
+  }
+  .contactform{
+    margin-top: 20px;
+    width: 300px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-bottom: 100px;
+  
+  }
+  .form-outline{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .contactform .btn{
+  margin-left: 100px;
+  margin-bottom: 20px;
+  }
+  
+  
+  /*meia queries starts here*/
+  @media only screen and (max-width: 480px) {
+    .navbar .navbar-toggler {
+      position: absolute;
+      top: 20px;
+      right: 12px;
+    }
+    .nav-link{
+      margin-top: 10px;
+    }
+    .nav-item {
+      border: none;
+    
+    }
+    img{
+      margin-right: 91px;
+    
+    }
+    
+    body{
+      overflow-x: hidden;
+    }
+    }
+    .text-white{
+      padding-top: 50px;
+    }
+    
+    /* Height for devices larger than 992px */
+    @media (min-width: 992px) {
+      #intro-example {
+        height: 600px;
+        
+      }
+    }
+    
